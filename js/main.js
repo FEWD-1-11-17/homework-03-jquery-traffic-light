@@ -5,23 +5,20 @@ $(document).ready(function(){
   $("#goButton").click(illuminateGreen);
 
   function illuminateRed() {
-    clearlights();
+    $('.bulb').css("background-color","black");
     $('#stopLight').css("background-color","red");
   }
 
   function illuminateYellow() {
-    clearlights();
+    $('.bulb').css("background-color","black");
     $('#slowLight').css("background-color","yellow");    
   }
 
   function illuminateGreen() {
-    clearlights();
+    $('.bulb').css("background-color","black");    
     $('#goLight').css("background-color","green");   
   }
 
-  function clearLights() {
-    $('#stopLight').css("background-color","black");
-    $('#slowLight').css("background-color","black"); 
-    $('#goLight').css("background-color","black");
-  }  
+// Robert - I found an alternate way to clear the lights but how would I do this using a clear lights function? 
+
 });
