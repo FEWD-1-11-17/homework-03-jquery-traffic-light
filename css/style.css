@@ -39,3 +39,40 @@ h1 {
   margin: 25px auto;
   transition: background 500ms;
 }
+
+.red {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 25px auto;
+  transition: background 500ms;
+}
+
+.yellow {
+  height: 150px;  
+  width: 150px;
+  background-color: orange;
+  border-radius: 50%;
+  margin: 25px auto;
+  transition: background 500ms;
+}
+
+.green {
+  height: 150px;
+  width: 150px;
+  background-color: green;
+  border-radius: 50%;
+  margin: 25px auto;
+  transition: background 500ms;
+}
+
+.black {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 25px auto;
+  transition: background 500ms;
+}
+
