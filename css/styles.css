@@ -2,10 +2,6 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
-  text-align: center;
-}
-
 #controlPanel {
   float: left;
   padding-top: 30px;
@@ -39,3 +35,9 @@ h1 {
   margin: 25px auto;
   transition: background 500ms;
 }
+
+
+/*.red {
+  background-color: red;
+
+}*/
