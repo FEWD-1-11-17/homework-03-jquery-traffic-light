@@ -39,3 +39,19 @@ h1 {
   margin: 25px auto;
   transition: background 500ms;
 }
+
+.switchRed {
+background-color: red;
+}
+
+.switchYellow {
+  background-color: yellow;
+}
+
+.switchGreen {
+  background-color: green;
+}
+
+.clearLights {
+  background-color: #333;
+}
